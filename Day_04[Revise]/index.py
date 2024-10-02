@@ -7,10 +7,28 @@
 
 # Practice 2: Write a program that calculates the total price of items in a shopping cart, where the prices are integers.
 
-item1 = 75;
-item2 = 78;
+# item1 = 75;
+# item2 = 78;
 
-total = item1 + item2;
+# total = item1 + item2;
 
-# printing the total item 
-print(f"The total item price is {total}$")
+# # printing the total item 
+# print(f"The total item price is {total}$")
+
+# Practice 1: Write a program that calculates the area of a circle given its radius.
+# import math
+# radius = float(input("Enter the radius: "))
+# areaOfRadius = math.pi * radius ** 2;
+# print(f"The area of the circle is {areaOfRadius:.2f}"); 
+
+# Practice 2: Create a simple calculator that performs division between two floating-point numbers.
+# num1 = float(input("Enter first number: "))
+# num2 = float(input("Enter second number: "))
+# result = num1 / num2;
+# print(f"Result: {result}")
+
+# Practice 1: Write a program that takes a string input from the user and reverses it.
+name = input("Enter you name: ")
+reverse = name[::-1];
+print(reverse)
+
