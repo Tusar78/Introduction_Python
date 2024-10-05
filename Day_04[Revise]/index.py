@@ -28,7 +28,27 @@
 # print(f"Result: {result}")
 
 # Practice 1: Write a program that takes a string input from the user and reverses it.
-name = input("Enter you name: ")
-reverse = name[::-1];
-print(reverse)
+# name = input("Enter you name: ")
+# reverse = name[::-1];
+# print(reverse)
 
+# Practice 2: Write a program that capitalizes the first letter of each word in a given sentence.
+# sentense = "Amar sonar bangla ami tomai valobashi";
+# capitalize_sen = sentense.title();
+# print(capitalize_sen);
+
+# Practice 1: Create a list of 5 numbers and find their sum.
+
+# numbers = [1, 2, 3, 4, 5]
+# total = sum(numbers);
+# print(total)
+
+# Practice 1: Write a program that stores 3 student names in a tuple and prints each name.
+# students = ["Alice", "Bob", "Charlie"]
+# students.append("Rakib")
+# print(students)
+
+# Practice 1: Write a program that stores 3 student names in a tuple and prints each name.
+students = ("Alice", "Bob", "Charlie")
+for std in students:
+    print(std)
